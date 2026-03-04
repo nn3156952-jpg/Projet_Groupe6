@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GabaoShop</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    GabaoShop <span>.</span>
+  </div>
+
+  <nav> 
+     <ul> 
+        <li><a href="#home">Home</a></li> 
+        <li><a href="#products">Produits</a></li> 
+        <li><a href="#about">About</a></li> 
+    </ul> 
+  </nav>
+
+  <div class="header-icons">
+    <i class="fa-solid fa-moon"></i>
+    <div class="cart-icon">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span>0</span>
+    </div>
+  </div>
+</header>
+
+<!-- HOME -->
+<section id="home" class="home home-section">
+  <div class="home-left">
+    <h1>Découvrez Nos Produits <br> Premium</h1>
+    <p>Une boutique moderne avec des produits technologiques sélectionnés pour vous offrir la meilleure qualité.</p>
+    <button class="btn">Voir les Produits</button>
+  </div>
+
+  <div class="home-right left">
+    <img class="left-image-1" src="image/9aaa1c0121f7f7216fcc9bebd3c99593.jpg" alt="Produit Tech 1">
+    <img class="left-image-2" src="image/9f15619ca2247f958e66fbeb825f28b7.jpg" alt="Produit Tech 2">
+  </div>
+</section>
+
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="products">
+  <h2 class="section-title">Nos Produits</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="image/chaussures-classe-mocassins-finsbury-2.jpg">
+      <h3>Mocassin</h3>
+      <p class="price">15000F</p>
+      <button><i class="fa-solid fa-cart-plus"></i> Ajouter</button>
+    </div>
+
+    <div class="product-card">
+      <img src="image/b5d8c8ecf7dd4c6621f318ddcf6f8806.jpg">
+      <h3>Talon Femme</h3>
+      <p class="price">47000F</p>
+      <button><i class="fa-solid fa-cart-plus"></i> Ajouter</button>
+    </div>
+
+    <div class="product-card">
+      <img src="image/2368102c2b5f4b0b94c20d560276351c.jpg">
+      <h3>Basket</h3>
+      <p class="price">10000F</p>
+      <button><i class="fa-solid fa-cart-plus"></i> Ajouter</button>
+    </div>
+
+    <div class="product-card">
+      <img src="image/PROFIL-4.jpg">
+      <h3>Chaussures Homme</h3>
+      <p class="price">35000F</p>
+      <button><i class="fa-solid fa-cart-plus"></i> Ajouter</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="products" class="products">
+  <h2 class="section-title">Produits Populaires</h2>
+
+  <div class="category-filter">
+    <button class="filter-btn active" data-category="all">Tous</button>
+    <button class="filter-btn" data-category="homme">Homme</button>
+    <button class="filter-btn" data-category="femme">Femme</button>
+    <button class="filter-btn" data-category="tech">Technologie</button>
+  </div>
+
+  <div class="product-grid" id="productGrid">
+    
+    <div class="product-card" data-category="tech">
+      <div class="badge">Populaire</div>
+      <img src="image/sennheiser-accentum-wireless-se-seul.jpg" alt="Casque">
+      <h3>Casque Premium Wireless</h3>
+      <p class="price">130000F</p>
+      <button><i class="fa-solid fa-cart-plus"></i> Ajouter</button>
+    </div>
+
+    <div class="product-card" data-category="homme">
+      <div class="badge">Top Vente</div>
+      <img src="image/d921c32df19f4651b0f4452f61844e68.jpg" alt="Montre">
+      <h3>Montre Chrono Silver</h3>
+      <p class="price">98000F</p>
+      <button><i class="fa-solid fa-cart-plus"></i> Ajouter</button>
+    </div>
+
+    <div class="product-card" data-category="femme">
+      <div class="badge">Nouveau</div>
+      <img src="image/Hc0704a98d4f6422092eeaf1dc19db417E.jpg" alt="Chaussures">
+      <h3>Escarpins Designer</h3>
+      <p class="price">80000F</p>
+      <button><i class="fa-solid fa-cart-plus"></i> Ajouter</button>
+    </div>
+
+    <div class="product-card" data-category="tech">
+      <div class="badge">Populaire</div>
+      <img src="image/Baf.jpg.jpeg" alt="Enceinte">
+      <h3>Enceinte Bluetooth G2</h3>
+      <p class="price">50000F</p>
+      <button><i class="fa-solid fa-cart-plus"></i> Ajouter</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2 class="section-title">Pourquoi nous choisir ?</h2>
+  <div class="about-content">
+    <div>
+      <i class="fa-solid fa-truck-fast"></i>
+      <h4>Livraison Rapide</h4>
+      <p>Livraison sécurisée partout en Afrique.</p>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-shield-halved"></i>
+      <h4>Paiement Sécurisé</h4>
+      <p>Transactions 100% protégées.</p>
+    </div>
+
+    <div>
+      <i class="fa-solid fa-headset"></i>
+      <h4>Support 24/7</h4>
+      <p>Service client disponible à tout moment.</p>
+    </div>
+  </div>
+</section>
+<!-- PANIER -->
+<div class="cart-panel" id="cartPanel">
+  <div class="cart-header">
+    <h2>Votre Panier</h2>
+    <i class="fa-solid fa-xmark" id="closeCart"></i>
+  </div>
+
+  <div id="cartItems"></div>
+
+  <div class="cart-footer">
+    <h3>Total : <span id="cartTotal">0</span> F</h3>
+    <button class="btn">Commander</button>
+  </div>
+</div>
+
+<section class="newsletter">
+  <div class="newsletter-container">
+    <div class="newsletter-content">
+      <h2 class="title">Restez connecté</h2>
+      <p class="desc">Rejoignez notre communauté et recevez nos meilleures offres technologiques directement dans votre boîte mail.</p>
+    </div>
+    
+    <div class="newsletter-form">
+      <div class="input-group">
+        <input type="email" placeholder="Votre adresse e-mail">
+        <button class="btn-send">S'abonner</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+ <footer>
+      <div class="logo">
+        <p>GabaoShop</p>
+      </div>
+      <p class="right-footer">All right are reserved <span>&copy; 2026</span></p>
+  </footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
